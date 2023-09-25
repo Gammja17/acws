@@ -90,9 +90,13 @@
       .swiper-slide .items3 {
         background-image: url("/user/acwsen/slideBanner/slide3.jpg");
       }
+      .swiper-slide .items4 {
+        background-image: url("/user/acwsen/slideBanner/slide4.jpg");
+      }
       .items1,
       .items2,
-      .items3 {
+      .items3,
+      .items4 {
         margin-top: 50px;
         /****** 배너이미지 사이즈 ******/
         width: 865px;
@@ -111,7 +115,8 @@
       }
       .info1,
       .info2,
-      .info3 {
+      .info3,
+      .info4 {
         padding-bottom: 200px;
         padding-right: 60px;
         padding-top: 30px;
@@ -128,7 +133,8 @@
       /* 날짜 */
       #slideDate1,
       #slideDate2,
-      #slideDate3 {
+      #slideDate3,
+      #slideDate4 {
         font-family: "Noto Sans KR";
         font-style: normal;
         font-weight: 400;
@@ -142,7 +148,8 @@
       /* 타이틀 */
       #slideTitle1,
       #slideTitle2,
-      #slideTitle3 {
+      #slideTitle3,
+      #slideTitle4 {
         font-family: "Noto Sans KR";
         font-style: normal;
         font-weight: 500;
@@ -158,7 +165,8 @@
       /* 요약정보 */
       #slideSum1,
       #slideSum2,
-      #slideSum3 {
+      #slideSum3,
+      #slideSum4 {
         font-family: "Noto Sans KR";
         font-style: normal;
         font-weight: 400 !important;
@@ -272,6 +280,22 @@
             <div class="item items3"></div>
           </a>
         </div>
+        <!-- 네번째 슬라이드 -->
+        <div class="swiper-slide" data-name="Networking">
+          <a
+            class="infoBox link4"
+            target="_top"
+            href=""
+            style="cursor: pointer"
+          >
+            <div class="info4 info">
+              <pre id="slideDate4"></pre>
+              <pre id="slideTitle4"></pre>
+              <h1 id="slideSum4"></h1>
+            </div>
+            <div class="item items4"></div>
+          </a>
+        </div>
       </div>
       <!-- 이동 화살표 -->
       <div class="swiper-button-next"></div>
@@ -292,7 +316,7 @@
 
     <!-- Initialize Swiper -->
     <script>
-      var menu = ["Research", "Education", "Publishing"];
+      var menu = ["Research", "Education", "Publishing", "Networking"];
       var swiper = new Swiper(".mySwiper", {
         slidesPerView: 1,
         spaceBetween: 0,

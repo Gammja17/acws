@@ -51,5 +51,20 @@ $(document).ready(function () {
       "https://cms.ewha.ac.kr/user/indexSub.action?codyMenuSeq=28104009&siteId=acwsen&menuUIType=top"
     );
   //세번째 슬라이드 끝
+  // 네번째 슬라이드
+  //날짜4
+  $("#slideDate4").text(""),
+    //제목4
+    $("#slideTitle4").text("Networking"),
+    // 요약4
+    $("#slideSum4").text(
+      "Collaborates with academic and research institutions, policy-making bodies, and non-governmental organizations without geographical restrictions. In partnership with these bodies, we operate as a forum for building mutual connections and forging transnational feminist networks."
+    ),
+    //링크4
+    $(".link4").attr(
+      "href",
+      "https://cms.ewha.ac.kr/user/indexSub.action?codyMenuSeq=28104010&siteId=acwsen&menuUIType=top"
+    );
+  //네번째 슬라이드 끝
 });
 // 슬라이드 끝
