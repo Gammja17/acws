@@ -49,5 +49,20 @@ $(document).ready(function () {
       "https://cms.ewha.ac.kr/user/indexSub.action?codyMenuSeq=26525373&siteId=acws&menuUIType=top"
     );
   //세번째 슬라이드 끝
+  // 네번째 슬라이드
+  //날짜4
+  $("#slideDate4").text(""),
+    //제목4
+    $("#slideTitle4").text("교류·협력"),
+    // 요약4
+    $("#slideSum4").text(
+      "다양한 국가와 지역의 학교, 연구소, 정책 기관, 정부 및 비정부기구와 협력한다. 지속적인 파트너십을 통해 상호 호혜적 관계를 구축한다. 궁극적으로 초국적 페미니스트 네트워크에 기반한 활발한 논의의 장으로 기능한다."
+    ),
+    //링크4
+    $(".link4").attr(
+      "href",
+      "https://cms.ewha.ac.kr/user/indexSub.action?codyMenuSeq=26525374&siteId=acws&menuUIType=top"
+    );
+  //네번째 슬라이드 끝
 });
 // 슬라이드 끝
