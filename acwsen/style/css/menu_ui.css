@@ -947,11 +947,21 @@
   min-height: 18px;
 }
 
+	#menuSubTitleUI_28104028 
+{
+  background: url("/user/acws/mycodyimages/sitemap.jpg") no-repeat left top !important;
+  min-width: 50px !important;
+  text-indent: -500 !important;
+  font-size: 0 !important;
+
+  width: 210px !important;
+  height: 72px !important;
+}
 
 	#menuSubTitleUI_28104024
 
 {
-  background: url("/user/acwsen/mycodyimages/left3_tit.gif") no-repeat left top !important;
+  background: url("/user/acwsen/mycodyimages/sitemap.jpg") no-repeat left top !important;
 	min-width: 50px !important;
   text-indent: -500 !important;
   font-size: 0 !important;
