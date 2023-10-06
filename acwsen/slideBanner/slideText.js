@@ -58,7 +58,7 @@ $(document).ready(function () {
     $("#slideTitle4").text("Networking"),
     // 요약4
     $("#slideSum4").text(
-      "Collaborates with academic and research institutions, policy-making bodies, and non-governmental organizations without geographical restrictions. In partnership with these bodies, we operate as a forum for building mutual connections and forging transnational feminist networks."
+      "Collaborates with academic and research institutions, policy-making bodies, and non-governmental organizations without geographical restrictions within and outside of Asias. Through mutually beneficial partnerships, understand different experiences and design creative collaborative projects. Ultimately, build a vibrant exchange and discussion based on transnational feminist networks."
     ),
     //링크4
     $(".link4").attr(
