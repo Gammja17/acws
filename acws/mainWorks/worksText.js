@@ -20,7 +20,7 @@ $(document).ready(function () {
     // 제목2
     $("#workTitle2").text("문화분야 근현대 여성인물 연구 및 홍보 지원사업"),
     // 요약2
-    $("#workSum2").text("이름없는 개척자들: 문화 분야 근현대 여성 인물"),
+    $("#workSum2").text("새 장을 열다: 근현대 문화 분야 여성인물"),
     // 링크2
     $(".link2").attr(
       "href",
