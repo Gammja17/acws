@@ -221,6 +221,12 @@ i {
   font-size: min(1.2em, 14px) !important;
   /* margin-top: 210px !important; */
 }
+
+#board-container .view .viewdata .contents a {
+  color: blue;
+  text-decoration: underline;
+}
+
 /*** table type ***/
 .conbuilContent > table > tbody > tr > td > p > span {
   font-size: min(1.2em, 14px) !important;
