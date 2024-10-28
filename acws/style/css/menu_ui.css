@@ -61,16 +61,48 @@
   position: relative; /*고정값*/
   float: left;
 }
+#menuTopUI #div #k2wiz_GNB .li_1 a.a_1 {
+  font-family: 'Noto Sans KR', sans-serif !important;
+  font-weight: 500 !important;
+  z-index: 2;
+  font-size: 18px !important;
+  text-align: center !important;
+  color: !important;
+  background: url('') no-repeat left top !important;
+  width: 232px;
+  padding: 0px 0px 0px 0px !important;
+  border-style: solid;
+  border-color: #ffffff !important;
+  border-width: 0px 0px 0px 1.5px !important;
+  display: block;
+  width: px !important;
+  height: 35px !important;
+  margin: 21px 0;
+}
+#menuTopUI #div #k2wiz_GNB .li_1 a.a_1:hover,
+#menuTopUI #div #k2wiz_GNB .li_1 a.a_1.active,
+#menuTopUI #div #k2wiz_GNB .li_1 a.a_1.activeOn {
+  z-index: 12;
+  font-weight: 500;
+  color: #ffffff !important;
+  background: url('') no-repeat left top !important;
+}
+
 /*2단계 영역 공통*/
 #menuTopUI div.div_2 {
-  font-family: 'Noto Sans KR', sans-serif !important;
   position: absolute;
-  /* width: 				0px; */
-  height: ;
-  margin: 0;
+  font-family: 'Noto Sans KR', sans-serif !important;
+  width: 232px !important;
+  height: fit-content !important;
+  background: url('') #fff left top no-repeat !important;
+  box-shadow: 0px 0px 6px 0px #00000054;
+  top: 77.5px !important;
+  left: px !important;
+  margin: 0px 0px 0px 0px !important;
   padding: !important;
-  border-width: 0px;
-  border-style: solid;
+  border-width: px px px px !important;
+  border-color: !important;
+  z-index: 4;
 }
 #menuTopUI ul#k2wiz_GNB li ul {
   position: relative;
@@ -80,6 +112,31 @@
   position: relative; /*고정값*/
   font-family: 'Noto Sans KR', sans-serif !important;
   height: 44px;
+}
+#menuTopUI div.div_2 ul li a.a_2 {
+  font-family: 'Noto Sans KR', sans-serif !important;
+  font-size: 16px !important;
+  text-align: center !important;
+  color: #606060;
+  background: url('') #ffffff no-repeat left top !important;
+  margin: 0px 0px 0px 0px !important;
+  padding: 10px 16px 10px 16px !important;
+  border-style: solid;
+  border-color: !important;
+  border-width: 0px 0px 0px 0px !important;
+
+  display: block;
+  width: 200px !important;
+  height: px !important;
+}
+
+#menuTopUI div.div_2 ul li a.a_2:hover,
+#menuTopUI div.div_2 ul li a.a_2.active,
+#menuTopUI div.div_2 ul li a.a_2.activeOn {
+  font-family: 'Noto Sans KR', sans-serif !important;
+  font-weight: 500;
+  color: #2b286f;
+  background: url('') #ffffff no-repeat left top;
 }
 
 /*3단계 영역 공통*/
@@ -112,31 +169,6 @@
 #menuTopUI ul#k2wiz_GNB {
 }
 
-/* 메뉴 구분: 대 */
-#menuTopUI #div_26525355,
-#menuTopUI #div_26525360,
-#menuTopUI #div_26525361,
-#menuTopUI #div_26525363,
-#menuTopUI #div_26525372,
-#menuTopUI #div_26525374,
-#menuTopUI #div_26525379,
-#menuTopUI #div_26526041,
-#menuTopUI #div_79351345 {
-  font-family: 'Noto Sans KR', sans-serif !important;
-  width: 246px !important;
-  height: fit-content !important;
-  background: url('') #fff left top no-repeat !important;
-  box-shadow: 0px 0px 6px 0px #00000054;
-  top: 77.5px !important;
-  left: px !important;
-  margin: 0px 0px 0px 0px !important;
-  padding: !important;
-  border-width: px px px px !important;
-  border-color: !important;
-  border-style: solid;
-  z-index: 4;
-}
-
 /* 메뉴 드롭다운 */
 #menuTopUI ul#k2wiz_GNB_ul_26525355,
 #menuTopUI ul#k2wiz_GNB_ul_26525360,
@@ -147,148 +179,6 @@
 #menuTopUI ul#k2wiz_GNB_ul_26525379,
 #menuTopUI ul#k2wiz_GNB_ul_26526041,
 #menuTopUI ul#k2wiz_GNB_ul_79351345 {
-}
-
-/*****************************************************
-	=주메뉴 영역
-	=동일 그룹, 동일 단계, 개별 메뉴
-	=개별메뉴속성
-*****************************************************/
-
-/* 개별 메뉴*/
-#menuTopUI a#k2wiz_GNB_26525355,
-#menuTopUI a#k2wiz_GNB_26525372,
-#menuTopUI a#k2wiz_GNB_26525360,
-#menuTopUI a#k2wiz_GNB_26525374,
-#menuTopUI a#k2wiz_GNB_26525363,
-#menuTopUI a#k2wiz_GNB_26525379,
-#menuTopUI a#k2wiz_GNB_79351345 {
-  /*font-family: 		"" ;*/
-  font-size: 18px !important;
-  text-align: center !important;
-  color: !important;
-  background: url('') no-repeat left top !important;
-  width: 246px;
-  padding: 0px 0px 0px 0px !important;
-  border-style: solid;
-  border-color: #ffffff !important;
-  border-width: 0px 0px 0px 1.5px !important;
-
-  display: block;
-  width: px !important;
-  height: 35px !important;
-  margin: 21px 0;
-}
-
-#menuTopUI a#k2wiz_GNB_26525355:hover,
-#menuTopUI a#k2wiz_GNB_26525355.active,
-#menuTopUI a#k2wiz_GNB_26525355.activeOn,
-#menuTopUI a#k2wiz_GNB_26525372:hover,
-#menuTopUI a#k2wiz_GNB_26525372.active,
-#menuTopUI a#k2wiz_GNB_26525372.activeOn,
-#menuTopUI a#k2wiz_GNB_26525360:hover,
-#menuTopUI a#k2wiz_GNB_26525360.active,
-#menuTopUI a#k2wiz_GNB_26525360.activeOn,
-#menuTopUI a#k2wiz_GNB_26525374:hover,
-#menuTopUI a#k2wiz_GNB_26525374.active,
-#menuTopUI a#k2wiz_GNB_26525374.activeOn,
-#menuTopUI a#k2wiz_GNB_26525363:hover,
-#menuTopUI a#k2wiz_GNB_26525363.active,
-#menuTopUI a#k2wiz_GNB_26525363.activeOn,
-#menuTopUI a#k2wiz_GNB_26525379:hover,
-#menuTopUI a#k2wiz_GNB_26525379.active,
-#menuTopUI a#k2wiz_GNB_26525379.activeOn,
-#menuTopUI a#k2wiz_GNB_79351345:hover,
-#menuTopUI a#k2wiz_GNB_79351345.active,
-#menuTopUI a#k2wiz_GNB_79351345.activeOn {
-  z-index: 12;
-  font-weight: 500;
-  color: #ffffff !important;
-  background: url('') no-repeat left top !important;
-}
-
-/* 동일 단계*/
-
-#menuTopUI #div_26525355 #k2wiz_GNB_ul_26525355 li a.a_2,
-#menuTopUI #div_26525360 #k2wiz_GNB_ul_26525360 li a.a_2,
-#menuTopUI #div_26525363 #k2wiz_GNB_ul_26525363 li a.a_2,
-#menuTopUI #div_26525372 #k2wiz_GNB_ul_26525372 li a.a_2,
-#menuTopUI #div_26525374 #k2wiz_GNB_ul_26525374 li a.a_2,
-#menuTopUI #div_26525379 #k2wiz_GNB_ul_26525379 li a.a_2,
-#menuTopUI #div_79351345 #k2wiz_GNB_ul_79351345 li a.a_2,
-#menuTopUI a#k2wiz_GNB_26525361,
-#menuTopUI a#k2wiz_GNB_72023815,
-#menuTopUI a#k2wiz_GNB_32359459,
-#menuTopUI a#k2wiz_GNB_32320724,
-#menuTopUI a#k2wiz_GNB_26525364,
-#menuTopUI a#k2wiz_GNB_26525373,
-#menuTopUI a#k2wiz_GNB_26525375,
-#menuTopUI a#k2wiz_GNB_26525380 {
-  font-family: 'Noto Sans KR', sans-serif !important;
-  font-size: 16px !important;
-  text-align: center !important;
-  color: #606060;
-  background: url('') #ffffff no-repeat left top !important;
-  margin: 0px 0px 0px 0px !important;
-  padding: 10px 16px 10px 16px !important;
-  border-style: solid;
-  border-color: !important;
-  border-width: 0px 0px 0px 0px !important;
-
-  display: block;
-  width: 214px !important;
-  height: px !important;
-}
-
-#menuTopUI #div_26525355 #k2wiz_GNB_ul_26525355 li a.a_2:hover,
-#menuTopUI #div_26525355 #k2wiz_GNB_ul_26525355 li a.a_2.active,
-#menuTopUI #div_26525355 #k2wiz_GNB_ul_26525355 li a.a_2.activeOn,
-#menuTopUI #div_26525360 #k2wiz_GNB_ul_26525360 li a.a_2:hover,
-#menuTopUI #div_26525360 #k2wiz_GNB_ul_26525360 li a.a_2.active,
-#menuTopUI #div_26525360 #k2wiz_GNB_ul_26525360 li a.a_2.activeOn,
-#menuTopUI #div_26525363 #k2wiz_GNB_ul_26525363 li a.a_2:hover,
-#menuTopUI #div_26525363 #k2wiz_GNB_ul_26525363 li a.a_2.active,
-#menuTopUI #div_26525363 #k2wiz_GNB_ul_26525363 li a.a_2.activeOn,
-#menuTopUI #div_26525372 #k2wiz_GNB_ul_26525372 li a.a_2:hover,
-#menuTopUI #div_26525372 #k2wiz_GNB_ul_26525372 li a.a_2.active,
-#menuTopUI #div_26525372 #k2wiz_GNB_ul_26525372 li a.a_2.activeOn,
-#menuTopUI #div_26525374 #k2wiz_GNB_ul_26525374 li a.a_2:hover,
-#menuTopUI #div_26525374 #k2wiz_GNB_ul_26525374 li a.a_2.active,
-#menuTopUI #div_26525374 #k2wiz_GNB_ul_26525374 li a.a_2.activeOn,
-#menuTopUI #div_26525379 #k2wiz_GNB_ul_26525379 li a.a_2:hover,
-#menuTopUI #div_26525379 #k2wiz_GNB_ul_26525379 li a.a_2.active,
-#menuTopUI #div_26525379 #k2wiz_GNB_ul_26525379 li a.a_2.activeOn,
-#menuTopUI #div_79351345 #k2wiz_GNB_ul_79351345 li a.a_2:hover,
-#menuTopUI #div_79351345 #k2wiz_GNB_ul_79351345 li a.a_2.active,
-#menuTopUI #div_79351345 #k2wiz_GNB_ul_79351345 li a.a_2.activeOn,
-#menuTopUI a#k2wiz_GNB_26525361:hover,
-#menuTopUI a#k2wiz_GNB_26525361.active,
-#menuTopUI a#k2wiz_GNB_26525361.activeOn,
-#menuTopUI a#k2wiz_GNB_72023815:hover,
-#menuTopUI a#k2wiz_GNB_72023815.active,
-#menuTopUI a#k2wiz_GNB_72023815.activeOn,
-#menuTopUI a#k2wiz_GNB_32359459:hover,
-#menuTopUI a#k2wiz_GNB_32359459.active,
-#menuTopUI a#k2wiz_GNB_32359459.activeOn,
-#menuTopUI a#k2wiz_GNB_32320724:hover,
-#menuTopUI a#k2wiz_GNB_32320724.active,
-#menuTopUI a#k2wiz_GNB_32320724.activeOn,
-#menuTopUI a#k2wiz_GNB_26525364:hover,
-#menuTopUI a#k2wiz_GNB_26525364.active,
-#menuTopUI a#k2wiz_GNB_26525364.activeOn,
-#menuTopUI a#k2wiz_GNB_26525373:hover,
-#menuTopUI a#k2wiz_GNB_26525373.active,
-#menuTopUI a#k2wiz_GNB_26525373.activeOn,
-#menuTopUI a#k2wiz_GNB_26525375:hover,
-#menuTopUI a#k2wiz_GNB_26525375.active,
-#menuTopUI a#k2wiz_GNB_26525375.activeOn,
-#menuTopUI a#k2wiz_GNB_26525380:hover,
-#menuTopUI a#k2wiz_GNB_26525380.active,
-#menuTopUI a#k2wiz_GNB_26525380.activeOn {
-  font-family: 'Noto Sans KR', sans-serif !important;
-  font-weight: 500;
-  color: #2b286f;
-  background: url('') #ffffff no-repeat left top;
 }
 
 /*****************************************************
