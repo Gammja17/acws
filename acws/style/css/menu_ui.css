@@ -270,11 +270,11 @@
 }
 
 #menuSubTitleUI_79351345 {
-  background: url('/user/acws/mycodyimages/left2_tit.gif') no-repeat left top !important;
+  background: url('/user/acws/mycodyimages/left9_tit.gif') no-repeat left top !important;
   min-width: 50px !important;
   text-indent: -500 !important;
   font-size: 0 !important;
-
+  background-size: contain !important;
   width: 210px !important;
   height: 72px !important;
 }
@@ -333,6 +333,31 @@
   display: block;
 }
 
+#menuSubUI .div_1 ul.ul_1 li.li_1 a.a_1 {
+  /*font-family: 		'Noto Sans KR', sans-serif !important; ;*/
+  font-size: 16px;
+  text-align: left;
+  color: #2b286f;
+  background: url('/user/acws/mycodyimages/left_bg.gif') no-repeat left top;
+  margin: -1px 0px 0px 0px;
+  padding: 8px 0px 0px 20px;
+  border-style: solid;
+  border-color: ;
+  border-width: 0px 0px 0px 0px;
+
+  width: 214px;
+  height: 34px;
+  line-height: 1.5;
+}
+
+#menuSubUI .div_1 ul.ul_1 li.li_1 a.a_1:hover,
+#menuSubUI .div_1 ul.ul_1 li.li_1 a.a_1.active,
+#menuSubUI .div_1 ul.ul_1 li.li_1 a.a_1.activeOn {
+  color: #2b286f;
+  font-weight: 500;
+  background: url('/user/acws/mycodyimages/left_bgon.gif') no-repeat left top;
+}
+
 /*2단계 영역 공통*/
 #menuSubUI div.div_2 {
   width: 214px;
@@ -349,6 +374,30 @@
   position: relative; /*고정값*/
 
   display: block !important;
+}
+
+#menuSubUI ul#k2wiz_GNB li ul li.li_2 a.a_2 {
+  font-size: 16px !important;
+  text-align: left !important;
+  color: #555555 !important;
+  background: url('/user/acws/mycodyimages/left_3th_bg.gif') no-repeat left top !important;
+  margin: 0px 0px 0px 0px !important;
+  padding: 10px 0px 10px 20px !important;
+  border-style: solid;
+  border-color: #a7a7a7 !important;
+  border-width: 0px 0px 1px 0px !important;
+
+  width: 201px !important;
+  /* height: 21.25px !important; */
+  line-height: 1;
+}
+
+#menuSubUI ul#k2wiz_GNB li ul li.li_2 a.a_2:hover,
+#menuSubUI ul#k2wiz_GNB li ul li.li_2 a.a_2.active,
+#menuSubUI ul#k2wiz_GNB li ul li.li_2 a.a_2.activeOn {
+  font-weight: 500;
+  background: url('/user/acws/mycodyimages/left_3th_bgon.gif') no-repeat left
+    top !important;
 }
 
 /*3단계 영역 공통*/
@@ -1441,32 +1490,6 @@
   color: #2b286f;
   font-weight: 500;
   background: url('') no-repeat left top;
-}
-
-/* 동일 그룹 */
-#menuSubUI #div_79351345 ul.ul_1 li.li_1 a.a_1 {
-  /*font-family: 		'Noto Sans KR', sans-serif !important; ;*/
-  font-size: 16px;
-  text-align: left;
-  color: #555555;
-  background: url('/user/acws/mycodyimages/left_bg.gif') no-repeat left top;
-  margin: -1px 0px 0px 0px;
-  padding: 8px 0px 0px 20px;
-  border-style: solid;
-  border-color: ;
-  border-width: 0px 0px 0px 0px;
-
-  width: 214px;
-  height: 34px;
-  line-height: 1.5;
-}
-
-#menuSubUI #div_79351345 ul.ul_1 li.li_1 a.a_1:hover,
-#menuSubUI #div_79351345 ul.ul_1 li.li_1 a.a_1.active,
-#menuSubUI #div_79351345 ul.ul_1 li.li_1 a.a_1.activeOn {
-  color: #2b286f;
-  font-weight: 500;
-  background: url('/user/acws/mycodyimages/left_bgon.gif') no-repeat left top;
 }
 
 /*****************************************************
