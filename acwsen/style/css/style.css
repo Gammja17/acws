@@ -137,7 +137,6 @@ i {
 #mid-container {
   width: 1028px !important;
   display: flex;
-  padding-bottom: 120px;
   /* justify-content: center; */
 }
 
@@ -146,7 +145,6 @@ i {
   margin-left: 135px !important;
 } */
 #left-container {
-  padding-top: 220px;
 }
 #left-container > div:nth-of-type(2) {
   width: 277px !important;
