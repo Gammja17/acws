@@ -6,37 +6,37 @@
 // 첫번째 사업 시작
 $(document).ready(function () {
   // 제목1
-  $("#workTitle1").text("인문사회연구소 지원사업"),
+  $('#workTitle1').text('인문사회연구소 지원사업'),
     // 요약1
-    $("#workSum1").text(
-      "인종과 젠더: 글로벌 한국의 신-인종화 현상 분석과 이론화"
+    $('#workSum1').text(
+      '인종과 젠더: 글로벌 한국의 신-인종화 현상 분석과 이론화'
     ),
     // 링크1
-    $(".link1").attr(
-      "href",
-      "https://cms.ewha.ac.kr/user/indexSub.action?codyMenuSeq=59015433&siteId=acws&menuUIType=sub"
+    $('.link1').attr(
+      'href',
+      'https://cms.ewha.ac.kr/user/indexSub.action?codyMenuSeq=79351353&siteId=acws&menuUIType=sub'
     ),
     // 두번째 사업 시작
     // 제목2
-    $("#workTitle2").text("문화분야 근현대 여성인물 연구 및 홍보 지원사업"),
+    $('#workTitle2').text('문화분야 근현대 여성인물 연구 및 홍보 지원사업'),
     // 요약2
-    $("#workSum2").text("새 장을 열다: 근현대 문화 분야 여성인물"),
+    $('#workSum2').text('새 장을 열다: 근현대 문화 분야 여성인물'),
     // 링크2
-    $(".link2").attr(
-      "href",
-      "https://cms.ewha.ac.kr/user/indexSub.action?codyMenuSeq=46962217&siteId=acws&menuUIType=sub"
+    $('.link2').attr(
+      'href',
+      'https://cms.ewha.ac.kr/user/indexSub.action?codyMenuSeq=46962217&siteId=acws&menuUIType=sub'
     ),
     // 세번째 사업 시작
     // 제목3
-    $("#workTitle3").text("아시아여성학 고등 교육과정 개발 사업"),
+    $('#workTitle3').text('아시아여성학 고등 교육과정 개발 사업'),
     // 요약3
-    $("#workSum3").text(
+    $('#workSum3').text(
       "Leadership Development Program on Women's Human Rights for Higher Education in Asia"
     ),
     // 링크3
-    $(".link3").attr(
-      "href",
-      "https://cms.ewha.ac.kr/user/indexSub.action?codyMenuSeq=32320724&siteId=acws&menuUIType=sub"
+    $('.link3').attr(
+      'href',
+      'https://cms.ewha.ac.kr/user/indexSub.action?codyMenuSeq=32320724&siteId=acws&menuUIType=sub'
     );
   //세번째 슬라이드 끝
 });
