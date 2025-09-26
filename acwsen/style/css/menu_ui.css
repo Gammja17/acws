@@ -1103,6 +1103,37 @@ color:				#2b286f !important;
 	
 }
 
+#menuSubUI a#k2wiz_GNB_88062371
+
+{	
+	
+	/*font-family: 		"돋움" !important;*/
+	font-size: 			12.5px !important;
+	text-align: 		left !important;
+	color:				#555555 !important;
+	background: 		url("/user/acwsen/mycodyimages/left_3th_bg.gif")  no-repeat left top !important;
+	margin: 			0px 0px 0px 0px !important;
+	padding:	 		5px 0px 0px 30px !important;
+	border-style: solid;
+	border-color: 		    !important;
+	border-width: 		0px 0px 0px 0px !important;
+	
+	width: 				214px !important;
+	height: 			41.25px !important; 
+}
+
+	#menuSubUI a#k2wiz_GNB_88062371:hover,
+	#menuSubUI a#k2wiz_GNB_88062371.active,
+	#menuSubUI a#k2wiz_GNB_88062371.activeOn
+
+{
+	
+	font-weight: 500;
+	background			:url("/user/acwsen/mycodyimages/left_3th_bgon.gif")  no-repeat left top !important;
+	
+}
+
+
 #menuSubUI a#k2wiz_GNB_72272889
 
 {	
