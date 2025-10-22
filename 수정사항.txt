@@ -1,0 +1,40 @@
+    position: relative;
+    left: 0px;
+    width: 84px;
+    height: 30px;
+    background-color: rgb(43, 40, 111);
+    color: rgb(255, 255, 255);
+    padding: 6px 14px;
+    font-weight: 400;
+    line-height: 30px;
+    user-select: auto !important;
+
+tagWorks : 가로 112px 세로 42px (높이 30, 패딩 6 14)
+
+<a href="#" class="tabBoardTab" style="height: 28px;padding: 6px 14px;width: 82px;">
+                                <span style="user-select: auto !important;">
+                                알림
+
+                                
+                                </span>
+                            </a>
+
+를 수정해야...
+
+
+주요사업 높이 258px
+
+
+
+li style = user - select 여기에 탑바텀 마진 3px 추가해야.
+
+or
+
+user-select: auto !important;
+    display: flex
+;
+    height: 246px;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+tabBoard 에.

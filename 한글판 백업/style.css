@@ -1,0 +1,380 @@
+/*Noto Sans KR 폰트 패밀리*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&display=swap');
+@font-face {
+  font-family: 'Noto Sans KR';
+  src: url(/user/acws/style/fonts/NotoSansKR-Regular.woff) format('woff');
+  src: url(/user/acws/style/fonts/NotoSansKR-Medium.woff) format('woff');
+}
+/*Noto Sans KR 폰트 패밀리 끝*/
+* {
+  font-family: 'Noto Sans KR', sans-serif !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+/* Wrap-container */
+#jwWrapContent {
+  z-index: 1 !important;
+  /* position: relative; */
+  /* overflow: hidden; */
+}
+/*�ָ޴� ����ó��*/
+#menuTopUI {
+}
+
+#header-container {
+  /* width: 100% !important; */
+  width: auto !important;
+  background-color: #2b286f !important;
+  position: relative;
+}
+/* #footer-container{
+	width: 100% !important;
+} */
+#header-container,
+#pageTop {
+  height: 208px !important;
+  z-index: 2;
+}
+/* 헤더 맨 위 바로가기 */
+#header-container > p:nth-of-type(2) {
+  display: flex !important;
+  justify-content: flex-end;
+  /* width: 886px !important; */
+  height: 20px !important;
+  padding-top: 65px;
+  top: 65px;
+  padding-left: 780px;
+  margin-right: 135px;
+  min-width: 300px;
+}
+/* 헤더 맨위 바로가기 세부버튼*/
+/* .indexMenu {
+  display: block !important;
+} */
+#header-container > p:nth-of-type(2) > a,
+i {
+  height: 20px !important;
+  display: block !important;
+  float: right;
+  position: relative;
+  z-index: 3;
+  text-align: center;
+  color: #2b286f;
+  font-size: 16px;
+  font-weight: 500;
+  /* border-style: solid;
+	border-color: #2B286F; */
+  line-height: 1;
+  padding: 0px 0px 0px 10px !important;
+}
+#header-container > p:nth-of-type(2) > i {
+  font-style: normal;
+}
+#header-container > p:nth-of-type(2) > a:nth-of-type(1) {
+  /* right: 466.5px !important; */
+  /* border-width: 0px 3px 0px 0px; */
+}
+#header-container > p:nth-of-type(2) > a:nth-of-type(2) {
+  /* right: 275px !important; */
+  /* border-width: 0px 3px 0px 0px; */
+}
+#header-container > p:nth-of-type(2) > a:nth-of-type(3) {
+  /* right: 191px !important; */
+  /* border-width: 0px 3px 0px 0px; */
+}
+#header-container > p:nth-of-type(2) > a:nth-of-type(4) {
+  /* right: 120px !important; */
+  /* border-width: 0px 0px 0px 0px; */
+}
+
+#header-container > div:nth-of-type(1) {
+  height: 130px !important;
+  background-color: #ffffff !important;
+}
+#header-container > div:nth-of-type(2) {
+  /* width: 1600px !important; */
+  position: absolute;
+  box-sizing: border-box;
+  background-color: #2b286f !important;
+  top: 130px !important;
+  /* height: 50px !important; */
+  display: flex !important;
+  align-items: center !important;
+  justify-content: start !important;
+  /* box-shadow: 0px 0px 4px 0px #00000040; */
+  z-index: 3;
+  /* margin-left: 135px; */
+  /* min-width: 1490px; */
+  max-width: 100%;
+  width: 100%;
+  padding: 0 135px;
+  height: auto !important;
+  line-height: 1.5;
+}
+#content-container {
+  width: 100% !important;
+  height: px !important;
+  /* padding: 0px 135px; */
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  position: relative;
+  /* padding-top: 280px; */
+  background-color: #ffffff;
+  min-height: 1325px;
+}
+#content-container > div:nth-of-type(2) {
+}
+/***EwhaNews ***/
+.mbsEwhaNews a.more {
+  top: -13px !important;
+}
+
+/*** tabBoard ***/
+.tabBoardWrap.skin_001 .tabBoardBox .tabBoardList .tabBoardLi.on .tabBoardTab {
+  border-color: #2b286f !important;
+  background-color: #2b286f !important;
+}
+
+/*** mid-container ***/
+#mid-container {
+  width: 1028px !important;
+  display: flex;
+  /* justify-content: center; */
+}
+
+/*** left-container ***/
+/* #left-container {
+  margin-left: 135px !important;
+} */
+#left-container {
+}
+#left-container > div:nth-of-type(2) {
+  width: 277px !important;
+}
+#left-container > div:nth-of-type(3) {
+  left: 24px !important;
+}
+
+/*** left menu layout ***/
+#neo_lmenubg {
+  position: absolute;
+  width: 273px;
+  top: 190px;
+  height: 100%;
+  background-color: #ffffff;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  background-repeat: no-repeat;
+  margin-left: 0px;
+  font-family: 'Noto Sans KR', sans-serif !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+/*** pageContent ***/
+
+#mid-container div#content-container {
+  background: url('/user/acws/mycodyimages/sub_bg.png') 0 190px;
+  background-repeat: no-repeat;
+  font-size: min(1.2em, 14px) !important;
+  line-height: 1.6 !important;
+  font-family: 'Noto Sans KR', sans-serif !important;
+  -webkit-font-smoothing: antialiased !important;
+  color: #444444 !important;
+  border-top-right-radius: 6px !important;
+}
+/* #mid-container div#content-container > div:nth-of-type(1) {
+  top: 510px !important;
+} */
+.neoPageContent {
+  position: absolute;
+  top: 300px;
+  width: 705px;
+  /* left: 0px; */
+  line-height: 1.6 !important;
+  font-size: min(1.2em, 14px) !important;
+  font-family: 'Noto Sans KR', sans-serif !important;
+  -webkit-font-smoothing: antialiased !important;
+  height: 100%;
+}
+.conbuilContent > p {
+  line-height: 1.6 !important;
+}
+.conbuilContent > p > span {
+  font-size: min(1.2em, 14px) !important;
+}
+.conbuilContent > h5 > p {
+  line-height: 1.6 !important;
+}
+.conbuilContent > p:nth-of-type(1) > b {
+  font-size: 16px !important;
+  color: #2b286f !important;
+}
+/*** board container type ***/
+#board-container {
+  font-size: min(1.2em, 14px) !important;
+}
+
+#board-container .view .viewdata .contents a {
+  color: blue;
+  text-decoration: underline;
+}
+/*** table type ***/
+.conbuilContent > table > tbody > tr > td > p > span {
+  font-size: min(1.2em, 14px) !important;
+}
+/* #contentSortable > div > div{
+  font-size: min(1.2em, 14px) !important;
+} */
+#contentSortable {
+  /* padding-top: 40px !important; */
+}
+#contentsWrap {
+}
+.viewBtn {
+  margin-top: -10px;
+  z-index: 20;
+}
+/*** quick menu widget ***/
+#jwWrapQuick {
+  left: 50.5% !important;
+}
+/*** location-title ***/
+#pagelocationTitle > strong {
+  font-weight: 500 !important;
+  padding-top: 25px !important;
+}
+#pagelocationTitle {
+  font-size: 1.5em !important;
+  line-height: 1.72;
+}
+#pagelocationNav {
+}
+#pagelocationWrap {
+  height: 75px !important;
+}
+
+/*** footer layout ***/
+#jwWrapFooter {
+  background-color: #39383b;
+  background-image: url('');
+  background-repeat: repeat-x;
+}
+#footer-container {
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 185px;
+}
+#footer {
+  background-color: #39383b;
+  padding: 40px 0 0 145px;
+  width: 100% !important;
+  height: 100% !important;
+}
+#footer .privacy {
+  color: #999;
+}
+#footer .privacy a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 5px;
+}
+#footer .address {
+  color: #999;
+  margin: 10px 0 0 0;
+}
+#footer .address strong {
+  color: #d7d7d7;
+}
+#footer .address a {
+  color: #999;
+  text-decoration: none;
+}
+#footer .copyright {
+  color: #999;
+  font-size: 0.95em;
+  margin: 0 0 30px 0;
+}
+
+/*�ٹ��Խ��� ���� ����*/
+#album-container {
+  margin-top: 70px;
+}
+#album-container div ul li dl dt a {
+  color: #7b7b7b !important;
+}
+#album-container div ul li dl dt a:hover {
+  color: #2b2b2b !important;
+}
+#album-container div.list ul.gallery li div.thumb a,
+#album-container div.list ul.list li div.thumb a {
+  display: contents !important;
+}
+/*������Խ��� ���콺������ ����*/
+#movie-container div.list a:hover {
+  color: #2b2b2b !important;
+}
+
+/*�ι��Խ��� Ÿ�Ժ��� ���� ����*/
+/*����*/
+#profile-container div.list a {
+  color: #7e7e7e !important;
+}
+#profile-container div.list a:hover {
+  color: #a1a1a1 !important;
+} /*text���콺�����û���_����1,2*/
+#profile-container div.list ul > li .info a:hover {
+  color: #a1a1a1 !important;
+} /*text���콺�����û���_����3,4,5*/
+#profile-container div.list {
+  border-top: 2px solid #8f8f8f !important;
+} /*borderĮ��*/
+/*4����Ų*/
+#profile-container div.list.typeB ul > li .info dl dd span {
+  color: #494949 !important;
+} /*4����Ų text����*/
+#profile-container .info dl dt,
+#profile-container .info dl dt a {
+  color: #494949 !important;
+} /*4����Ų ���γ��� text����*/
+#profile-container div.view.typeB ul > li .info dl dd span {
+  color: #494949 !important;
+} /*4����Ų ���γ��� text����*/
+/*4��,5�� ��Ų ��������*/
+#profile-container .info a.mail {
+  background: url('/Web-home/user/profile/images/profile_mail_gray.gif') left
+    top no-repeat !important;
+} /*���γ��� ���Ϲ�ư*/
+#profile-container .info a.homepage {
+  background: url('/Web-home/user/profile/images/profile_home_gray.gif') left
+    top no-repeat !important;
+} /*���γ��� Ȩ�ǹ�ư*/
+/*5����Ų*/
+#profile-container div.list.typeC ul > li .info dl dt {
+  background: url('/Web-home/user/profile/images/title_gray.gif') left 8px
+    no-repeat !important;
+} /*5����Ų ���� ����*/
+#profile-container div.view.typeC ul > li .info dl dt {
+  background: url('/Web-home/user/profile/images/title_gray.gif') left 8px
+    no-repeat !important;
+} /*5����Ų���γ��� ���� ����*/
+
+/*** history-page ***/
+.history-container .skin_005 .category {
+  border-color: #d5d5d5 #d5d5d5 #2b286f !important;
+  height: 42px !important;
+}
+.history-container .skin_005 .category ul li {
+  margin-top: 2px;
+}
+.history-container .skin_005 .category ul li a {
+  border-color: #2b286f !important;
+}
+.history-container .skin_005 .category ul li a .text {
+  color: #2b286f !important;
+}
+.history-container .skin_005 .category ul li a.on .arrow {
+  display: none !important;
+}
+/*** widget set ***/
+.wiz_setmenu {
+  top: 30px !important;
+}
