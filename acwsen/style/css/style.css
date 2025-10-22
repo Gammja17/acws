@@ -128,9 +128,39 @@ i {
 }
 
 /*** tabBoard ***/
-.tabBoardWrap.skin_001 .tabBoardBox .tabBoardList .tabBoardLi.on .tabBoardTab {
+.tabBoard {
+  user-select: auto !important;
+  display: flex !important;
+  height: 236px !important;
+  flex-direction: column !important;
+  justify-content: space-evenly !important;
+}
+
+.tabBoardWrap.skin_001 .tabBoardLi.on {
   border-color: #2b286f !important;
   background-color: #2b286f !important;
+  height: 42px;
+}
+
+.tabBoardBox {
+  height: 42px;
+}
+
+.tabBoardList {
+  height: 42px !important;
+}
+
+.tabBoardTab {
+  display: flex;
+  user-select: auto !important;
+  align-items: center;
+  justify-content: center;
+  border-color: #2b286f !important;
+  background-color: #2b286f !important;
+  height: 40px;
+  width: 82px;
+  font-size: 16px;
+  text-align: center;
 }
 
 /*** mid-container ***/
