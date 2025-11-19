@@ -31,7 +31,8 @@
 } */
 #header-container,
 #pageTop {
-  height: 208px !important;
+  min-height: 208px !important;
+  height: auto !important;
   z-index: 2;
 }
 /* 헤더 맨 위 바로가기 */
@@ -109,10 +110,12 @@ i {
   padding: 0 135px;
   height: auto !important;
   line-height: 1.5;
+  min-height: 78px !important; /* 추가 */
+  flex-wrap: wrap !important; /* 추가 */
 }
 #content-container {
   width: 100% !important;
-  height: px !important;
+  height: auto !important;
   /* padding: 0px 135px; */
   display: flex;
   justify-content: start;
@@ -120,7 +123,8 @@ i {
   position: relative;
   /* padding-top: 280px; */
   background-color: #ffffff;
-  min-height: 1325px;
+  min-height: calc(100vh - 185px); /* 전체 높이 - footer 높이 */
+  box-sizing: border-box !important;
 }
 #content-container > div:nth-of-type(2) {
 }
@@ -407,4 +411,35 @@ i {
 /*** widget set ***/
 .wiz_setmenu {
   top: 30px !important;
+}
+
+/*화면 비율에 따른 content-container padding 조절*/
+@media (max-width: 1650px) {
+  #content-container {
+    padding-top: 76px !important;
+  }
+}
+
+@media (max-width: 1217px) {
+  #content-container {
+    padding-top: 153px !important;
+  }
+}
+
+@media (max-width: 900px) {
+  #content-container {
+    padding-top: 230px !important;
+  }
+}
+
+@media (max-width: 1000px) and (min-width: 984px) {
+  #content-container {
+    padding-top: 152px !important;
+  }
+}
+
+@media (max-width: 752px) {
+  #content-container {
+    padding-top: 461px !important;
+  }
 }
